@@ -13,6 +13,6 @@ var num2=Number (prompt('Enter a Number2'));
 //console.log(typeof num1);*/
 
 alert('
- Boolean : ${Boolean(num1)}
+  Boolean : ${Boolean(num1)}
   String : ${String(num1)}
   Number : ${Number(num1)}');
