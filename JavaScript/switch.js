@@ -32,7 +32,7 @@ switch(num)
 }*/
 
 var num1 = +prompt("Enter a Number");
-var num2 = +prompt("Enter a Number");
+var num2 = +prompt("Enter a Number"); //converting string in to number using + before prompt
 var Operation = prompt(`Enter Operation :
 + for addition
 -for substraction
@@ -43,10 +43,13 @@ var Operation = prompt(`Enter Operation :
 switch(Operation)
 {
   case '+' :
-  alert("Addition :"+num1+num2);
+  case 'Addition' :  // multiple cases same logic
+  case 'Add' :
+  alert("Addition :"+(+num1+num2));
   break;
+
   case '-' : //logic
-  alert("Substraction :"+num1-num2);
+  alert("Substraction :"+(+num1-num2));
   break;
   case '*' : //logic
   alert("multiplication :"+num1*num2);
@@ -56,6 +59,6 @@ switch(Operation)
   break;
 
   default : //logic
-  console.log("Number is not fit into range...");
+  console.log("Operation is not fit into range...");
 
 }
