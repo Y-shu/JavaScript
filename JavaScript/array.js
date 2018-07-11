@@ -1,6 +1,6 @@
-let name = ['John','Sam','Ram','Rohn'];
-let John = ['John','Samith',25,true,250000.23,null,name];//we can add array inside an array
-let rohn = [John,name];
+let names = ['John','Sam','Ram','Rohn'];
+let John = ['John','Samith',25,true,250000.23,null,names];//we can add array inside an array
+let rohn = [John,names];
 console.log(John);
 console.log(typeof John);
 John[3] = false; //directly replacing...
@@ -19,8 +19,8 @@ console.log(John.indexOf('Samith')); // method returens either 1 or -1
 // for(let index=0;index<rohn.length;index++)
 // {
 //   console.log(John[index]);
-//   for(let nIndex=0;nIndex<rohn[index].length;nIndex++)
-//   {
-//     console.log(rohn[index][nIndex]);
-//   }
-// } //counter-for execute till particular count
+for(let nIndex=0;nIndex<rohn[index].length;nIndex++)
+   {
+     console.log(rohn[index][nIndex]);
+ }
+// //counter-for execute till particular count
