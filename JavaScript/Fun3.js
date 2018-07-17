@@ -19,4 +19,4 @@ if(val1.name>val2.name){
   return 1;
 }
 });
-console.log(objArr)
+console.log(objArr);
