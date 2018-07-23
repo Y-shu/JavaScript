@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza-Hub</title>
+
+  </head>
+  <body>
+    <script src="DOMPizza.js">
+    </script>
+    <h1>Order-Pizza</h1>
+ <!-- <input type="button" value="Order-Pizza" onclick="Order-Pizza"> -->
+<!-- </input> -->
+<br><br>
+<form id="add_form">
+
+
+  Name  : <select id="name">
+  <option value="Neapolitan Pizza">Neapolitan Pizza</option>
+  <option value="Chicago Pizza">Chicago Pizza</option>
+  <option value="NewYork Pizza">NewYork Pizza</option>
+  <option value="Australia Pizza">Australia Pizza</option>
+</select><br><br>
+  Size  :<select id="size">
+  <option value="X-Large">X-Large Pizza</option>
+  <option value="Large">Large Pizza</option>
+  <option value="Medium">Medium Pizza</option>
+  <option value="Small">Small Pizza</option>
+</select> <br><br>
+Address  :<input type="checkbox" id="myCheck" onclick=""><br>
+<input type="text" value=""><br><br>
+Extra-Cheeze:<br>
+<input type="radio" name="radio" value="Yes"> Yes<br>
+
+<input type="radio" name="radio" value="No"> No<br><br>
+
+<input id="button1" type="submit" value="Submit" onclick="validateForm">
+</form>
+  </body>
+</html>
