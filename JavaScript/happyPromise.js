@@ -1,5 +1,7 @@
 "use strict"
 const isFatherHappy= true; //always happy so true
+/*if it is false it directly goes to reject and finally to catch..it will not
+execute middle thing*/
 //promise-promise takes a function and funtion takes parameters
 const willGetMobile=new Promise(function(resolve,reject){
   if(isFatherHappy){
