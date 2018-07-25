@@ -16,6 +16,10 @@ try{ //first executed
 }catch(error){ //second executed
   //catching error and displays message
   alert('Error of the Program');
+  console.log(error.name);
+  console.log(error.message);
+  console.log(error.stack);
+
 }finally{
   //always execute even you are having an err at a particular point in code
   alert("This is always execute");
